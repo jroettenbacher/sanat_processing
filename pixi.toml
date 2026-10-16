@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Johannes Röttenbacher <jr-alias@posteo.de>"]
+channels = ["conda-forge"]
+name = "sanat_processing"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.15.0,<3.16"
+pandas = ">=3.0.6,<4"
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+xarray = ">=2026.9.0,<2027"
+yaml = ">=0.2.5,<0.3"
+scipy = ">=1.18.1,<2"
+
+[pypi-dependencies]
+polair = ">=1.0.4, <2"
