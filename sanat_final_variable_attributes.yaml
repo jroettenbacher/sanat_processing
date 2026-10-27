@@ -549,14 +549,6 @@ dropsondes:
       units_old: K
       units: K
 
-    theta_e:
-      old: Equiv Potential Temp (K)
-      long_name: air equivalent potential temperature
-      standard_name: air_equivalent_potential_temperature
-      platform: dropsonde
-      units_old: K
-      units: K
-
     alt_gp:
       old: Geopotential Altitude (m)
       long_name: geopotential altitude
