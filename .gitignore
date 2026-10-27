@@ -1,5 +1,8 @@
 .ipynb_checkpoints
 turbulence_processing_log.txt
+
+# data directory
+data
 # pixi environments
 .pixi/*
 !.pixi/config.toml
