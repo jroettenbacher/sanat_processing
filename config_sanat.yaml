@@ -12,26 +12,26 @@ campaign:
       stop: 120
 
 paths:
-  xml_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/dms_download_templates/2024_DMS_BacsamII.xml"
-  variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/met_P6_varibles_sanat.yaml"
-  calibration: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/calibration_sanat.yaml"
-  fiveholeprobe: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/turbulence/fiveholeprobe_parameters_sanat.yaml"
-  processing_log_file: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/"
-  processed_variables: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_final_variable_attributes.yaml"
-  segments: "/Users/lakoeh001/AWI/Programmierung/sanat_processing/sanat_flight_segments.yaml"
+  xml_file: "./dms_download_templates/2024_DMS_BacsamII.xml"
+  variables: "./turbulence/met_P6_varibles_sanat.yaml"
+  calibration: "./turbulence/calibration_sanat.yaml"
+  fiveholeprobe: "./turbulence/fiveholeprobe_parameters_sanat.yaml"
+  processing_log_file: "./"
+  processed_variables: "./sanat_final_variable_attributes.yaml"
+  segments: "./sanat_flight_segments.yaml"
   outdirs:
-    raw: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/raw"
-    noseboom: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/noseboom"
-    tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/tbird"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/mcpc"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/partector"
-    partector_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/partector_tbird"
-    kt19: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/kt19"
-    radiation: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/radiation"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/uhsas"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/licor"
-    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/licor_tbird"
-    dropsondes: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/Prozessierung/dropsondes"
+    raw: "./data/20260103SANAT/Daten/Prozessierung/raw"
+    noseboom: "./data/20260103SANAT/Daten/Prozessierung/noseboom"
+    tbird: "./data/20260103SANAT/Daten/Prozessierung/tbird"
+    mcpc: "./data/20260103SANAT/Daten/Prozessierung/mcpc"
+    partector: "./data/20260103SANAT/Daten/Prozessierung/partector"
+    partector_tbird: "./data/20260103SANAT/Daten/Prozessierung/partector_tbird"
+    kt19: "./data/20260103SANAT/Daten/Prozessierung/kt19"
+    radiation: "./data/20260103SANAT/Daten/Prozessierung/radiation"
+    uhsas: "./data/20260103SANAT/Daten/Prozessierung/uhsas"
+    licor: "./data/20260103SANAT/Daten/Prozessierung/licor"
+    licor_tbird: "./data/20260103SANAT/Daten/Prozessierung/licor_tbird"
+    dropsondes: "./data/20260103SANAT/Daten/Prozessierung/dropsondes"
 
 metadata:
   author: "Laura Köhler"
@@ -163,12 +163,12 @@ instrument_metadata:
 flights:
   11: 
     date: 2026-01-21
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/20260121_RF01a/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01a/"
-    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_TBird_RF01a/"
+    flight_dir: "./data/20260103SANAT/Daten/RF01_20260121/"
+    data_dir: "./data/20260103SANAT/Daten/RF01_20260121/20260121_RF01a/"
+    partector: "./data/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
+    uhsas: "./data/20260103SANAT/Daten/RF01_20260121/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01a/"
+    licor_tbird: "./data/20260103SANAT/Daten/RF01_20260121/LICOR_TBird_RF01a/"
     prefix: "20260121_RF01a_P6__"
     tbird: True
     start: 2026-01-21T12:41:00
@@ -200,11 +200,11 @@ flights:
 
   12: 
     date: 2026-01-21
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/20260121_RF01b/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01b/"
+    flight_dir: "./data/20260103SANAT/Daten/RF01_20260121/"
+    data_dir: "./data/20260103SANAT/Daten/RF01_20260121/20260121_RF01b/"
+    partector: "./data/20260103SANAT/Daten/RF01_20260121/Partector_Polar6/2026_01_21/"
+    uhsas: "./data/20260103SANAT/Daten/RF01_20260121/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF01_20260121/LICOR_P6_RF01b/"
     prefix: "2026_RF01b_P6_"
     tbird: True
     start: 2026-01-21T18:22:00
@@ -218,12 +218,12 @@ flights:
 
   21: 
     date: 2026-01-22
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/20260122_RF02a/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/aMCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02a/"
+    flight_dir: "./data/20260103SANAT/Daten/RF02_20260122/"
+    data_dir: "./data/20260103SANAT/Daten/RF02_20260122/20260122_RF02a/"
+    partector: "./data/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
+    mcpc: "./data/20260103SANAT/Daten/RF02_20260122/aMCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF02_20260122/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02a/"
     prefix: "20260122_RF02_P6_"
     tbird: True
     start: 2026-01-22T09:28:00
@@ -237,12 +237,12 @@ flights:
 
   22: 
     date: 2026-01-22
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/20260122_RF02b/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/aMCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02b/"
+    flight_dir: "./data/20260103SANAT/Daten/RF02_20260122/"
+    data_dir: "./data/20260103SANAT/Daten/RF02_20260122/20260122_RF02b/"
+    partector: "./data/20260103SANAT/Daten/RF02_20260122/PartectorP6/2026_01_22/"
+    mcpc: "./data/20260103SANAT/Daten/RF02_20260122/aMCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF02_20260122/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF02_20260122/LICOR_P6_RF02b/"
     prefix: "20260122_RF02b_P6_"
     tbird: True
     start: 2026-01-22T12:43:00
@@ -256,12 +256,12 @@ flights:
 
   31: 
     date: 2026-01-24
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03a/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF31/"
+    flight_dir: "./data/20260103SANAT/Daten/RF03_20260124/"
+    data_dir: "./data/20260103SANAT/Daten/RF03_20260124/20260124_RF03a/"
+    partector: "./data/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
+    mcpc: "./data/20260103SANAT/Daten/RF03_20260124/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF03_20260124/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF31/"
     prefix: "20260124_P6_RF03a_"
     tbird: True
     start: 2026-01-24T09:41:00
@@ -274,12 +274,12 @@ flights:
 
   32: 
     date: 2026-01-24
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03b/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF32/"
+    flight_dir: "./data/20260103SANAT/Daten/RF03_20260124/"
+    data_dir: "./data/20260103SANAT/Daten/RF03_20260124/20260124_RF03b/"
+    partector: "./data/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
+    mcpc: "./data/20260103SANAT/Daten/RF03_20260124/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF03_20260124/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF32/"
     prefix: "20260124_P6_RF03b_"
     tbird: True
     start: 2026-01-24T13:27:30
@@ -292,12 +292,12 @@ flights:
 
   33: 
     date: 2026-01-24
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/20260124_RF03c/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF33/"
+    flight_dir: "./data/20260103SANAT/Daten/RF03_20260124/"
+    data_dir: "./data/20260103SANAT/Daten/RF03_20260124/20260124_RF03c/"
+    partector: "./data/20260103SANAT/Daten/RF03_20260124/PartectorP6/2026_01_24/"
+    mcpc: "./data/20260103SANAT/Daten/RF03_20260124/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF03_20260124/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF03_20260124/LICOR_P6_RF33/"
     prefix: "20260124_P6_RF03c_"
     tbird: True
     start: 2026-01-24T18:53:00
@@ -310,11 +310,11 @@ flights:
 
   4: 
     date: 2026-01-25
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/20260125_RF04/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/PartectorP6/2026_01_25/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF04_20260125/UHSAS/"
+    flight_dir: "./data/20260103SANAT/Daten/RF04_20260125/"
+    data_dir: "./data/20260103SANAT/Daten/RF04_20260125/20260125_RF04/"
+    partector: "./data/20260103SANAT/Daten/RF04_20260125/PartectorP6/2026_01_25/"
+    mcpc: "./data/20260103SANAT/Daten/RF04_20260125/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF04_20260125/UHSAS/"
     prefix: "20260125_P6_04_"
     tbird: True
     start: 2026-01-25T08:47:30
@@ -334,13 +334,13 @@ flights:
 
   5: 
     date: 2026-01-25
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/20260125_RF05"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/PartectorP6/2026_01_25/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/LICOR_P6/"
-    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF05_20260125/LICOR_TBird/"
+    flight_dir: "./data/20260103SANAT/Daten/RF05_20260125/"
+    data_dir: "./data/20260103SANAT/Daten/RF05_20260125/20260125_RF05"
+    partector: "./data/20260103SANAT/Daten/RF05_20260125/PartectorP6/2026_01_25/"
+    mcpc: "./data/20260103SANAT/Daten/RF05_20260125/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF05_20260125/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF05_20260125/LICOR_P6/"
+    licor_tbird: "./data/20260103SANAT/Daten/RF05_20260125/LICOR_TBird/"
     prefix: "20260125_P6_05_"
     tbird: True
     start: 2026-01-25T15:00:00
@@ -361,13 +361,13 @@ flights:
 
   6: 
     date: 2026-01-26
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/20260126_RF06/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/PartectorP6/2026_01_26/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/LICOR_P6/"
-    licor_tbird: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF06_20260126/LICOR_TBird/"
+    flight_dir: "./data/20260103SANAT/Daten/RF06_20260126/"
+    data_dir: "./data/20260103SANAT/Daten/RF06_20260126/20260126_RF06/"
+    partector: "./data/20260103SANAT/Daten/RF06_20260126/PartectorP6/2026_01_26/"
+    mcpc: "./data/20260103SANAT/Daten/RF06_20260126/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF06_20260126/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF06_20260126/LICOR_P6/"
+    licor_tbird: "./data/20260103SANAT/Daten/RF06_20260126/LICOR_TBird/"
     prefix: "20260126_P6_RF06_"
     tbird: True
     start: 2026-01-26T14:25:00
@@ -381,12 +381,12 @@ flights:
 
   7: 
     date: 2026-01-27
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/20260127_RF07/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/PartectorP6/2026_01_27/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/aMCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF07_20260127/LICOR_P6/"
+    flight_dir: "./data/20260103SANAT/Daten/RF07_20260127/"
+    data_dir: "./data/20260103SANAT/Daten/RF07_20260127/20260127_RF07/"
+    partector: "./data/20260103SANAT/Daten/RF07_20260127/PartectorP6/2026_01_27/"
+    mcpc: "./data/20260103SANAT/Daten/RF07_20260127/aMCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF07_20260127/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF07_20260127/LICOR_P6/"
     prefix: "20260127_P6_07_"
     tbird: False
     start: 2026-01-27T09:06:30
@@ -404,12 +404,12 @@ flights:
 
   8: 
     date: 2026-01-27
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/20260127_RF08/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/PartectorP6/2026_01_27/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/aMCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF08_20260127/LICOR_P6/"
+    flight_dir: "./data/20260103SANAT/Daten/RF08_20260127/"
+    data_dir: "./data/20260103SANAT/Daten/RF08_20260127/20260127_RF08/"
+    partector: "./data/20260103SANAT/Daten/RF08_20260127/PartectorP6/2026_01_27/"
+    mcpc: "./data/20260103SANAT/Daten/RF08_20260127/aMCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF08_20260127/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF08_20260127/LICOR_P6/"
     prefix: "20260127_P6_RF08_"
     tbird: False
     start: 2026-01-27T14:03:30
@@ -445,11 +445,11 @@ flights:
 
   9: 
     date: 2026-01-29
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/20260129_RF09/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/PartectorP6/2026_01_29/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF09_20260129/UHSAS/"
+    flight_dir: "./data/20260103SANAT/Daten/RF09_20260129/"
+    data_dir: "./data/20260103SANAT/Daten/RF09_20260129/20260129_RF09/"
+    partector: "./data/20260103SANAT/Daten/RF09_20260129/PartectorP6/2026_01_29/"
+    mcpc: "./data/20260103SANAT/Daten/RF09_20260129/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF09_20260129/UHSAS/"
     prefix: "20260129_P6_RF09_"
     tbird: False
     start: 2026-01-29T09:02:00
@@ -468,12 +468,12 @@ flights:
 
   10: 
     date: 2026-01-29
-    flight_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/"
-    data_dir: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/20260129_RF10/"
-    partector: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/PartectorP6/2026_01_29/"
-    mcpc: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/MCPC/"
-    uhsas: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/UHSAS/"
-    licor: "/Users/lakoeh001/AWI/Campaigns/20260103SANAT/Daten/RF10_20260129/LICOR_P6/"
+    flight_dir: "./data/20260103SANAT/Daten/RF10_20260129/"
+    data_dir: "./data/20260103SANAT/Daten/RF10_20260129/20260129_RF10/"
+    partector: "./data/20260103SANAT/Daten/RF10_20260129/PartectorP6/2026_01_29/"
+    mcpc: "./data/20260103SANAT/Daten/RF10_20260129/MCPC/"
+    uhsas: "./data/20260103SANAT/Daten/RF10_20260129/UHSAS/"
+    licor: "./data/20260103SANAT/Daten/RF10_20260129/LICOR_P6/"
     prefix: "20260129_P6_RF10_"
     tbird: False
     start: 2026-01-29T15:04:00
