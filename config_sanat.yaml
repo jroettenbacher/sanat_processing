@@ -122,7 +122,7 @@ instrument_metadata:
     institution: "Alfred-Wegener-Institut"
     contact: "laura.koehler@awi.de"
     version: "v1.0.0"
-    serial: "tba"
+    serial: "2408-066"
     doi: "tba"
     conventions: "CF-1.7"
     processing: "processed with polair (https://github.com/LauraKoehler/polair, doi: 10.5281/zenodo.21065056), settings see https://github.com/LauraKoehler/sanat_processing"
